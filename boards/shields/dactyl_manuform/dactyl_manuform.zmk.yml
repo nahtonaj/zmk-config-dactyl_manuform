@@ -1,0 +1,14 @@
+file_format: "1"
+id: dactyl_manuform
+name: dactyl_manuform_4x6
+type: shield
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - encoder
+  - underglow
+siblings:
+  - dactyl_manuform_left
+  - dactyl_manuform_right
