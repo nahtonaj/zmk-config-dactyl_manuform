@@ -39,7 +39,7 @@
 &kp LSHFT                &kp Z  &kp X     &kp C  &kp V                               &kp B                                                  &kp N                                   &kp M      &kp COMMA         &kp DOT            &kp FSLH  &kp RSHFT
                                 &kp NUBS  &kp A                                                                                                                                                &kp LEFT_BRACKET  &kp RIGHT_BRACKET
                                                  &mt LEFT_SHIFT SPACE                &mt LEFT_COMMAND ENTER                                 &lt 1 SPACE                             &mo LOWER
-                                                                       &kp LEFT_ALT                          &mo BLUE             &kp BSPC               &mt RIGHT_SHIFT BACKSPACE
+                                                                       &kp LEFT_ALT                          &mo 1                &kp BSPC               &mt RIGHT_SHIFT BACKSPACE
                                                                        &kp LALT                              &kp LC(LA(RIGHT))    &kp LGUI               &kp RALT
             >;
         };
@@ -61,7 +61,7 @@
 &trans     &kp EXCL  &kp AT    &kp HASH  &kp DLLR                &kp PRCNT                                 &kp CARET             &kp AMPS   &kp ASTRK  &kp LPAR     &kp RPAR  &kp PIPE
                      &kp NUBS  &trans                                                                                                       &kp SPACE  &kp DE_HASH
                                          &mo RAISE               &kp SPACE                                 &kp ENTER             &mo LOWER
-                                                    &kp LA(TAB)             &mo BLUE             &kp BSPC             &kp SPACE
+                                                    &kp LA(TAB)             &mo 1                &kp BSPC             &kp SPACE
                                                     &kp LALT                &kp LC(LA(RIGHT))    &kp LGUI             &kp RALT
             >;
         };
@@ -82,7 +82,7 @@
 &trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans                     &kp CLCK                                     &kp PG_DN             &kp LEFT   &kp DOWN   &kp RIGHT  &kp DEL  &kp BSPC
                           &kp NUBS      &trans                                                                                                                 &kp SPACE  &trans
                                                       &mo RAISE                  &kp SPACE                                    &kp ENTER             &mo LOWER
-                                                                    &kp LA(TAB)                &mo BLUE             &kp BSPC             &kp SPACE
+                                                                    &kp LA(TAB)                &mo 1                &kp BSPC             &kp SPACE
                                                                     &kp LALT                   &kp LC(LA(RIGHT))    &kp LGUI             &kp RALT
             >;
         };
@@ -102,7 +102,7 @@
 &none              &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &none            &none                         &none                                           &none                 &none      &none      &none   &none  &none
                                     &kp NUBS         &trans                                                                                                                          &kp SPACE  &trans
                                                                       &mo RAISE                     &kp SPACE                                       &kp ENTER             &mo LOWER
-                                                                                       &kp LA(TAB)                   &mo BLUE             &kp BSPC             &kp SPACE
+                                                                                       &kp LA(TAB)                   &mo 1                &kp BSPC             &kp SPACE
                                                                                        &kp LALT                      &kp LC(LA(RIGHT))    &kp LGUI             &kp RALT
             >;
         };
