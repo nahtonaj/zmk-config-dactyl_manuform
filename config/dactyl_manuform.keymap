@@ -64,8 +64,6 @@
                                                        &kp LA(TAB)             &mo BLUE             &kp BSPC             &kp SPACE
                                                        &kp LALT                &kp LC(LA(RIGHT))    &kp LGUI             &kp RALT
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         raise_layer {
@@ -87,8 +85,6 @@
                                                                     &kp LA(TAB)                &mo BLUE             &kp BSPC             &kp SPACE
                                                                     &kp LALT                   &kp LC(LA(RIGHT))    &kp LGUI             &kp RALT
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         adjust_layer {
