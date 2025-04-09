@@ -11,6 +11,8 @@
 #define NAV 4
 #define MED 5
 
+&lt { quick-tap-ms = <150>; };
+
 / {
     behaviors {
         lh_pht: left_positional_hold_tap {
