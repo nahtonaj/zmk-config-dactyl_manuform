@@ -53,7 +53,7 @@
             #binding-cells = <0>;
             bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
 
-            ignored-key-positions = <24 56>;
+            ignored-key-positions = <24 41>;
         };
 
         tabber: tabber {
@@ -61,7 +61,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL>, <&kp TAB>, <&kt LCTRL>;
 
-            ignored-key-positions = <24 56>;
+            ignored-key-positions = <24 41>;
         };
     };
 
