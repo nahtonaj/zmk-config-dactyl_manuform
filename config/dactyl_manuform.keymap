@@ -41,7 +41,7 @@
             quick-tap-ms = <200>;
             bindings = <&kp>, <&kp>;
 
-            hold-trigger-key-positions = <0 1 2 3 4 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 48 49 52 53 45 44>;    // <---[[right-hand keys]]
+            hold-trigger-key-positions = <0 1 2 3 4 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 48 49 52 53 45 44>;    // <---[[left-hand keys]]
             hold-trigger-on-release;
             require-prior-idle-ms = <150>;
         };
@@ -53,7 +53,7 @@
             #binding-cells = <0>;
             bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
 
-            ignored-key-positions = <0>;
+            ignored-key-positions = <0 1 2 3 4 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 48 49>;
         };
 
         tabber: tabber {
@@ -61,7 +61,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL>, <&kp TAB>, <&kt LCTRL>;
 
-            ignored-key-positions = <0>;
+            ignored-key-positions = <0 1 2 3 4 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 48 49>;
         };
     };
 
