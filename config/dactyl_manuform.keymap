@@ -12,14 +12,11 @@
 #define NAV 4
 #define MED 5
 
-&lt {
-    quick-tap-ms = <150>;
-    flavor = "balanced";
-};
+&lt { quick-tap-ms = <150>; };
 
 &mt {
     quick-tap-ms = <150>;
-    flavor = "balanced";
+    flavor = "tap-preferred";
 };
 
 / {
