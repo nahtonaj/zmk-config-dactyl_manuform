@@ -47,6 +47,15 @@
         };
     };
 
+    behaviors {
+        swapper: swapper {
+            compatible = "zmk,behavior-tri-state";
+            #binding-cells = <0>;
+            bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
+            ignored-key-positions = <1>;
+        }
+    }
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -56,7 +65,7 @@
 &mt LCTRL ESC  &lh_pht LEFT_SHIFT A  &lh_pht LEFT_GUI S  &lh_pht LEFT_ALT D  &lh_pht LCTRL F             &kp G                     &kp H          &rh_pht RCTRL J            &rh_pht RIGHT_ALT K  &rh_pht RIGHT_GUI L  &rh_pht RIGHT_SHIFT SEMICOLON  &kp SQT
 &kp LSHFT      &kp Z                 &kp X               &kp C               &kp V                       &kp B                     &kp N          &kp M                      &kp COMMA            &kp DOT              &kp FSLH                       &kp BSLH
                                      &kp LBKT            &kp RBKT            &mt LEFT_SHIFT SPACE        &mt LEFT_COMMAND ENTER    &lt 2 SPACE    &mt RIGHT_SHIFT BACKSPACE  &kp MINUS            &kp EQUAL
-                                                                             &mt LEFT_CONTROL BACKSPACE  &kt LEFT_ALT              &kt RIGHT_ALT  &lt 1 ENTER
+                                                                             &mt LEFT_CONTROL BACKSPACE  &kt LEFT_ALT              &swapper &lt 1 ENTER
                                                                              &mo 3                       &mo 2                     &kp DELETE     &mo 3
             >;
         };
